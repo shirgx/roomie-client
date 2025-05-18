@@ -1,0 +1,17 @@
+{
+  "name": "roomie-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node telegram-bot.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "pg": "^8.11.1"
+  }
+}
